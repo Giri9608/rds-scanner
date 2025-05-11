@@ -1,5 +1,6 @@
 AWS RDS Scanner
 A Python tool to list details of AWS RDS databases in a specified region, including engine type, status, and endpoint, in JSON format. This project includes both the Python script and a Docker container for easy deployment.
+
 Prerequisites
 
 Python 3.8 or higher (for running the script directly)
@@ -32,7 +33,9 @@ Configure AWS CLI:aws configure
 
 
 Usage (Python Script)
+
 Run the tool with a region:
+
 python3 rds_scanner.py --region ap-south-1
 
 Setup (Docker Container)
@@ -64,8 +67,11 @@ Example Output
 Troubleshooting
 
 Wrong region: Use valid regions like ap-south-1 or us-east-1.
+
 Permission error: Ensure your IAM user has the required permissions.
+
 Empty list: This is normal if no databases exist in the specified region.
+
 Docker credential error: Ensure AWS credentials are passed correctly via environment variables.
 
 License
