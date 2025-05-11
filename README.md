@@ -1,4 +1,5 @@
 AWS RDS Scanner
+
 A Python tool to list details of AWS RDS databases in a specified region, including engine type, status, and endpoint, in JSON format. This project includes both the Python script and a Docker container for easy deployment.
 
 Prerequisites
