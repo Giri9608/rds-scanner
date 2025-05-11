@@ -14,7 +14,7 @@ Docker (for running the containerized version)
 
 Setup (Python Script)
 
-Clone the repository:git clone https://github.com/Giri8608/aws-rds-scanner.git
+Clone the repository:git clone https://github.com/Giri9608/aws-rds-scanner.git
 
 cd aws-rds-scanner
 
